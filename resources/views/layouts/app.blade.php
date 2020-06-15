@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
     <title>everywheel</title>
-    <meta content="みんなで使えるタスク管理アプリ" name="description">
+    <meta content="当日、地域のライブハウス出演者のまとめ" name="description">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <!-- Fonts -->
@@ -10,7 +10,6 @@
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
     <link href="{{ asset('/css/header.css') }}" rel="stylesheet">
-
     <!-- Styles -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <script  src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
@@ -21,10 +20,10 @@
     <!-- ツイッターカード -->
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@ziko7110_2" />
-    <meta property="og:url" content="http://test-laravel.com/" />
-    <meta property="og:title" content="Task List" />
-    <meta property="og:description" content="タスク管理アプリです" />
-    <meta property="og:image" content="http://test-laravel.com/Twitter_card.png" />
+    <meta property="og:url" content="#" />
+    <meta property="og:title" content="everywheel" />
+    <meta property="og:description" content="当日のライブ情報まとめサイト" />
+    <meta property="og:image" content="#" />
 
 </head>
 <nav class="navbar navbar-expand-md navbar-dark bg-dark">
