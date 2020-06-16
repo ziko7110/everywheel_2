@@ -16,7 +16,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js"></script>
     <script src="{{ asset('/js/test.js') }}"></script>
     <meta name="csrf-token" content="{{ csrf_token() }}">
-
     <!-- ツイッターカード -->
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@ziko7110_2" />
@@ -43,9 +42,9 @@
         <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="https://example.com" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ドロップダウン</a>
             <div class="dropdown-menu" aria-labelledby="dropdown04">
-            <a class="dropdown-item" href="#">問い合わせ</a>
-            <a class="dropdown-item" href="#">ログアウト</a>
-            <a class="dropdown-item" href="#">管理者用ページ</a>
+                <a class="dropdown-item" href="#">問い合わせ</a>
+                <a class="dropdown-item" href="#">ログアウト</a>
+                <a class="dropdown-item" href="#">管理者用ページ</a>
             </div>
         </li>
         </ul>
