@@ -19,26 +19,20 @@
                     </thead>
                     <tbody>
                         <tr class="table-active">
-                        <th scope="row">スムージチークスワンマン 〜七夕リクエスト祭り〜</th>
-                        <td>COMING HOME Vol.40 - MODERN KNOCK "SQUARe:<br> tour 2020"&New Side Chapter"RevolC<br> (REM;EMBER me.)"Release Party in OSAKA</td>
-                        <td>WAGAMAMARAKIA 2MAN SHOWS「The Take Back」</td>
+                            <th scope="row">スムージチークスワンマン 〜七夕リクエスト祭り〜</th>
+                            <td>COMING HOME Vol.40 - MODERN KNOCK "SQUARe:<br> tour 2020"&New Side Chapter"RevolC<br> (REM;EMBER me.)"Release Party in OSAKA</td>
+                            <td>WAGAMAMARAKIA 2MAN SHOWS「The Take Back」</td>
                         </tr>
                         <tr>
-                        <th scope="row"><div>[ACT]</div>スムージチークス</th>
-                        <td><div>[ACT]</div>AFTER SQUALL <br> AX LITTLE CITY <br> MODERN KNOCK <br> New Side Chapter <br> Past life was Thief <br> SIGHTS</td>
-                        <td><div>[ACT]</div>我儘ラキア-BAND SET- /<br> FAITH /<br> Djつぶら</td>
+                            <th scope="row"><div>[ACT]</div>スムージチークス</th>
+                            <td><div>[ACT]</div>AFTER SQUALL <br> AX LITTLE CITY <br> MODERN KNOCK <br> New Side Chapter <br> Past life was Thief <br> SIGHTS</td>
+                            <td><div>[ACT]</div>我儘ラキア-BAND SET- /<br> FAITH /<br> Djつぶら</td>
                         </tr>
                         <tr class="table-light">
-                        <th scope="row"><div>[OPEN/START]<div>18:30/19:00<div>[料金]</div>ADV/DOOR ￥3000/￥--(1D別)</th>
-                        <td><div>[OPEN/START]<div>18:30/19:00<div>[料金]</div>ADV/DOOR ￥3000/￥--(1D別)</td>
-                        <td><div>[OPEN/START]<div>18:30/19:00<div>[料金]</div>ADV/DOOR ￥2500/￥3200(1D別)</td>
+                            <th scope="row"><div>[OPEN/START]<div>18:30/19:00<div>[料金]</div>ADV/DOOR ￥3000/￥--(1D別)</th>
+                            <td><div>[OPEN/START]<div>18:30/19:00<div>[料金]</div>ADV/DOOR ￥3000/￥--(1D別)</td>
+                            <td><div>[OPEN/START]<div>18:30/19:00<div>[料金]</div>ADV/DOOR ￥2500/￥3200(1D別)</td>
                         </tr>
-                        <!-- <tr class="table-dark">
-                        <th scope="row">Dark</th>
-                        <td>Column content</td>
-                        <td>Column content</td>
-                        <td>Column content</td>
-                        </tr> -->
                     </tbody>
                 </table> 
             </div>
