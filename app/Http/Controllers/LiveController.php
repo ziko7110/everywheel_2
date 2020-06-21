@@ -15,7 +15,7 @@ class LiveController extends Controller
 
     public function show(Request $request)
     {
-  ///
+
     }
 
 

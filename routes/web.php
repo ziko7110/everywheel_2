@@ -13,4 +13,5 @@
 
 
 
-Route::get('/', 'liveController@index')->name('live.index');
+// Route::get('/', 'liveController@index')->name('live.index');
+Route::resource('live', 'LiveController',  ['only' => ['index']]);
