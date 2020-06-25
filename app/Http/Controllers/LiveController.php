@@ -9,8 +9,10 @@ class LiveController extends Controller
 
     public function index(Request $request)
     {
+        $live_schedule = $items_data;
 
-        return view('index');
+
+        return view('index', compact('live_schedule'));
     }
 
     public function show(Request $request)
