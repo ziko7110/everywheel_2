@@ -26,7 +26,9 @@
                         <tr>
                             <th scope="row"><div>[ACT]</div>スムージチークス</th>
                             <td><div>[ACT]</div>AFTER SQUALL <br> AX LITTLE CITY <br> MODERN KNOCK <br> New Side Chapter <br> Past life was Thief <br> SIGHTS</td>
-                            <td><div>[ACT]</div>我儘ラキア-BAND SET- /<br> FAITH /<br> Djつぶら</td>
+                            <td><div>[ACT]</div>{{ $artists[0] }} /<br> FAITH /<br> Djつぶら</td>
+
+
                         </tr>
                         <tr class="table-light">
                             <th scope="row"><div>[OPEN/START]<div>18:30/19:00<div>[料金]</div>ADV/DOOR ￥3000/￥--(1D別)</th>
