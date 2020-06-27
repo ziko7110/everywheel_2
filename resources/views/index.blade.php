@@ -25,8 +25,8 @@
                         </tr>
                         <tr>
                             <th scope="row"><div>[ACT]</div>スムージチークス</th>
-                            <td><div>[ACT]</div>AFTER SQUALL <br> AX LITTLE CITY <br> MODERN KNOCK <br> New Side Chapter <br> Past life was Thief <br> SIGHTS</td>
-                            <td><div>[ACT]</div>{{ $artists[0] }} /<br> FAITH /<br> Djつぶら</td>
+                            <td><div>[ACT]</div>{{ $beyond_artists[0] }} </td>
+                            <td><div>[ACT]</div>{{ $varon_artists[0] }} /<br> FAITH /<br> Djつぶら</td>
 
 
                         </tr>

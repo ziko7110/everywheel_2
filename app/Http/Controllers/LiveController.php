@@ -18,28 +18,34 @@ class LiveController extends Controller
 
     public function index()
     {
-        // ここではアマゾンカメラランキングをスクレイピング
-        $goutte = GoutteFacade::request('GET', 'https://osaka-varon.jp/schedule/detail/3332');
 
+        $goutte = GoutteFacade::request('GET', 'https://beyond-osaka.jp/schedule/detail/8851');
+
+        //テキストを取得するための配列を準備
+        $beyond_artists = array();
+        //テキストを取得
+        $goutte->filter('.other_artists')->each(function ($node) use (&$beyond_artists) {
+            $beyond_artists[] = $node->text();
+        });
+
+
+
+        // ここではVaronをスクレイピング
+        $goutte = GoutteFacade::request('GET', 'https://osaka-varon.jp/schedule/detail/3332');
         //画像を取得するための配列を準備
         $images = array();
         //テキストを取得するための配列を準備
-        $artists = array();
-
-        //画像のsrc部分を取得
-        $goutte->filter('.a-dynamic-image')->each(function ($node) use (&$images) {
-            $images[] = $node->attr('src');
-        });
-
+        $varon_artists = array();
         //テキストを取得
-        $goutte->filter('.other_artists')->each(function ($node) use (&$artists) {
-            $artists[] = $node->text();
+        $goutte->filter('.other_artists')->each(function ($node) use (&$varon_artists) {
+            $varon_artists[] = $node->text();
         });
         $params = [
             // 'images' => $images,
-            'artists' => $artists,
+            'varon_artists' => $varon_artists,
+            'beyond_artists' => $beyond_artists,
         ];
-        // eval(\Psy\sh());
+// eval(\Psy\sh());
         return view('index', $params);
     }
 
