@@ -24,7 +24,7 @@
                             <td>WAGAMAMARAKIA 2MAN SHOWS「The Take Back」</td>
                         </tr>
                         <tr>
-                            <th scope="row"><div>[ACT]</div>スムージチークス</th>
+                            <th scope="row"><div>[ACT]</div>{{ $drop_artists[0] }}</th>
                             <td><div>[ACT]</div>{{ $beyond_artists[0] }} </td>
                             <td><div>[ACT]</div>{{ $varon_artists[0] }} /<br> FAITH /<br> Djつぶら</td>
 
