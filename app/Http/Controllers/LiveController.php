@@ -31,18 +31,10 @@ class LiveController extends Controller
             $varon_artists[] = $node->text();
         });
         $params = [
-            'varon_artists' => $varon_artists,
-            'beyond_artists' => $beyond_artists,
-            'drop_artists' => $drop_artists,
+            'varon_artists'     => $varon_artists,
+            'beyond_artists'    => $beyond_artists,
+            'drop_artists'      => $drop_artists,
         ];
         return view('index', $params);
     }
-
-    public function show(Request $request)
-    {
-
-    }
-
-
-
 }
