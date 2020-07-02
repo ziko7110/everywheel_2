@@ -23,12 +23,17 @@ class LiveController extends Controller
         $goutte->filter('.other_artists')->each(function ($node) use (&$beyond_artists) {
             $beyond_artists[] = $node->text();
         });
-
+        
         // ここではVaronをスクレイピング
         $goutte = GoutteFacade::request('GET', 'https://osaka-varon.jp/schedule/detail/3332');
         $varon_artists = array();
         $goutte->filter('.other_artists')->each(function ($node) use (&$varon_artists) {
             $varon_artists[] = $node->text();
+        });
+        
+        $varon_title = array();
+        $goutte->filter('/html/body/div[1]/div/div[1]/section/div/article/div/h1')->each(function ($node) use (&$varon_title) {
+            $varon_title[] = $node->text();
         });
         $params = [
             'varon_artists'     => $varon_artists,

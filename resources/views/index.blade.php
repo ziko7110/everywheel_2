@@ -12,9 +12,9 @@
                 <table class="table table-hover">
                     <thead>
                         <tr>
-                        <th scope="col"><h3><a class="drop" href="https://clubdrop.jp/">DROP</a></h3></th>
-                        <th scope="col"><h3><a class="beyond" href="https://beyond-osaka.jp/">BEYOND</a><h3></th>
-                        <th scope="col"><h3><a class="varon" href="https://osaka-varon.jp/">VARON</a></h3></th>
+                            <th scope="col"><h3><a class="drop" href="https://clubdrop.jp/">DROP</a></h3></th>
+                            <th scope="col"><h3><a class="beyond" href="https://beyond-osaka.jp/">BEYOND</a><h3></th>
+                            <th scope="col"><h3><a class="varon" href="https://osaka-varon.jp/">VARON</a></h3></th>
                         </tr>
                     </thead>
                     <tbody>
@@ -27,8 +27,6 @@
                             <th scope="row"><div>[ACT]</div>{{ $drop_artists[0] }}</th>
                             <td><div>[ACT]</div>{{ $beyond_artists[0] }} </td>
                             <td><div>[ACT]</div>{{ $varon_artists[0] }} /<br> FAITH /<br> Djつぶら</td>
-
-
                         </tr>
                         <tr class="table-light">
                             <th scope="row"><div>[OPEN/START]<div>18:30/19:00<div>[料金]</div>ADV/DOOR ￥3000/￥--(1D別)</th>
