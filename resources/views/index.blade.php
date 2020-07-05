@@ -3,7 +3,8 @@
 @section('content')
 <body>
     <div class="bs-docs-section" >
-        <div class="row">
+    <!-- <div id="heatmapArea"></div> -->
+        <div class="row" id="heatmapArea">
             <div class="col-lg-12">
             <div class="page-header">
                 <h1 id="tables">TODAY SCHEDULE</h1>
