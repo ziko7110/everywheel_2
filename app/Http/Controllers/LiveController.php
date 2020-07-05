@@ -31,10 +31,10 @@ class LiveController extends Controller
             $varon_artists[] = $node->text();
         });
         
-        $varon_title = array();
-        $goutte->filter('/html/body/div[1]/div/div[1]/section/div/article/div/h1')->each(function ($node) use (&$varon_title) {
-            $varon_title[] = $node->text();
-        });
+        // $varon_title = array();
+        // $goutte->filter('/html/body/div[1]/div/div[1]/section/div/article/div/h1')->each(function ($node) use (&$varon_title) {
+        //     $varon_title[] = $node->text();
+        // });
         $params = [
             'varon_artists'     => $varon_artists,
             'beyond_artists'    => $beyond_artists,
