@@ -3,7 +3,6 @@
 @section('content')
 <body>
     <div class="bs-docs-section" >
-    <!-- <div id="heatmapArea"></div> -->
         <div class="row" id="heatmapArea">
             <div class="col-lg-12">
             <div class="page-header">
