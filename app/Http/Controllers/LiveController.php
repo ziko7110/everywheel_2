@@ -41,7 +41,6 @@ class LiveController extends Controller
             'varon_artists'     => $varon_artists,
             'beyond_artists'    => $beyond_artists,
             'drop_artists'      => $drop_artists,
-
             'varon_title'       => $varon_title,
         ];
         return view('index', $params);
