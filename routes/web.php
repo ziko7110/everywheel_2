@@ -14,11 +14,7 @@
 
 
 Route::get('/', 'liveController@index')->name('live.index');
-// Route::resource('live', 'LiveController',  ['only' => ['index']]);
 Auth::routes();
-
 Route::get('/home', 'HomeController@index')->name('home');
-
 Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
+// Route::get('/home', 'HomeController@index')->name('home');
